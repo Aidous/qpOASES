@@ -36,7 +36,7 @@
 
 #if defined(__WIN32__) || defined(WIN32)
   #include <windows.h>
-#elif defined(LINUX) || defined(__LINUX__)
+#elif defined(LINUX) || defined(__LINUX__) || defined(__QNXNTO__)
   #include <sys/stat.h>
   #include <sys/time.h>
 #endif

@@ -32,7 +32,8 @@
 
 TOP = $(realpath $(dir $(lastword $(MAKEFILE_LIST))))
 
-include ${TOP}/make_linux.mk
+include ${TOP}/make_qnx_sdp7_aarch64.mk
+# include ${TOP}/make_linux.mk
 #include ${TOP}/make_cygwin.mk
 #include ${TOP}/make_windows.mk
 #include ${TOP}/make_osx.mk
